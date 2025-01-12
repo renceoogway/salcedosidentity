@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Profile</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eef2f3;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 350px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .profile-picture {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .profile-picture img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+        }
+
+        .profile-details {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-details p {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+
+        .qr-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .qr-section img {
+            width: 120px;
+            height: 120px;
+        }
+
+        footer {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <header>
+            <h1>Arnel Salcedo</h1>
+        </header>
+
+        <div class="profile-picture">
+            <!-- Student's Picture -->
+            <img src="image/arnel.jpg" alt="Student Picture">
+        </div>
+
+        <div class="profile-details">
+            <p>Salcedo's Details and Info</p>
+        </div>
+
+        <div class="qr-section">
+            <!-- QR Code -->
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="image/facebook_qr_code.png" alt="QR Code">
+            </a>
+        </div>
+
+        <footer>
+            <p>Group 8 - Renze, Noel, and Euan</p>
+        </footer>
+    </div>
+</body>
+</html>
